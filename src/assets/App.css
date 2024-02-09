@@ -1,0 +1,1134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+body {
+    background: #161616;
+    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Russo One', sans-serif;
+    max-width: 100%;
+}
+
+
+/* ------------------Navbar start------------------*/
+.navbar {
+    position: fixed !important;
+    width: 100%;
+    font-family: 'Poppins', sans-serif !important;
+    background: transparent !important;
+    z-index: 999;
+    } 
+
+
+
+div#navbarNav {
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 2rem !important;
+}
+
+.navbar-brand {
+    font-family: 'Alex Brush', cursive;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    color: #13FF00;
+}
+
+.nav-link:hover {
+    color: #13FF00;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #13FF00;
+}
+
+/*------------------ Navbar End------------------*/
+
+
+/*------------------ Footer Start------------------*/
+#f0 {
+    color: #13FF00;
+    background: #202020;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.bada {
+    font-size: 1.5rem;
+
+}
+
+#typw {
+    color: #13FF00;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+svg {
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+}
+
+.ficon {
+    color: #13FF00;
+}
+
+.emil {
+    font-size: 13px;
+}
+
+#f1 {
+    background: #161616 !important;
+    color: #FFF;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 15px;
+    font-weight: 500 !important;
+}
+
+.text-uppercase {
+    color: #13FF00;
+    padding-top: 10px;
+    font-weight: 500 !important;
+}
+
+#f2 {
+    background: #202020 !important;
+    font-family: 'Poppins', sans-serif !important;
+    color: #13FF00;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+/*------------------ Footer End------------------*/
+
+
+/*------------------ Home Start------------------*/
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    background-color: #1D1D1D;
+    max-width: 100%;
+    flex-wrap: wrap-reverse;
+    flex-shrink: 1;
+}
+
+.child {
+    box-sizing: border-box;
+    padding: 5%;
+}
+
+.child1 {
+    flex: 0.75;
+    background-color: #000000;
+    clip-path: polygon(0 0, 57% 0, 100% 100%, 0% 100%);
+    justify-content: center;
+}
+
+.child2 {
+    flex: 0.25;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-border {
+    border: 4px solid #13FF00;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: transparent;
+
+
+}
+
+.circular-border img {
+    width: 100%;
+    border-radius: 25px;
+
+}
+
+.cont {
+    margin-top: 15%;
+    max-width: 60%;
+}
+
+#name {
+    color: #13FF00;
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#line {
+    width: 200px;
+    height: 0.375rem;
+    background: #13FF00;
+    margin-left: 45%;
+}
+
+#poff {
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.14);
+    font-family: Poppins;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+#intro {
+    color: #8F8F8F;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+#hbtn>a {
+    text-decoration: none;
+}
+
+#hbtn>a>p {
+    color: #FFF;
+    display: inline;
+    font-family: Poppins;
+    text-decoration: none !important;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+#hbtn svg {
+    color: #FFF;
+    display: inline;
+    text-decoration: none;
+    width: 2.1875rem;
+    height: 2.1875rem;
+    flex-shrink: 0;
+    margin-left: 10%;
+}
+
+#dowl {
+    border-radius: 0.625rem;
+    background: #13FF00;
+    width: 8.1875rem;
+    height: 2rem;
+    flex-shrink: 0;
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+#dowl>svg {
+    width: 2.1875rem;
+    height: 2.1875rem;
+    flex-shrink: 0;
+    color: #000000;
+    margin: auto;
+}
+
+#dowl>p {
+    display: inline;
+    text-decoration: none !important;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: normal;
+    margin: auto;
+
+}
+
+.slink {
+    margin: 60px 80px;
+    color: #13FF00;
+}
+
+
+/*------------------ Home End------------------*/
+
+/*------------------ About start------------------*/
+
+#abt {
+    background: #161616;
+    flex-shrink: 0;
+    margin: auto;
+    justify-content: center;
+}
+
+.abth {
+    color: #FFF;
+    padding-top: 80px;
+    font-family: Poppins;
+    font-size: 3.125rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.abtus {
+    color: #8F8F8F;
+    text-align: center !important;
+    font-family: Poppins;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    padding: 50px 0;
+    padding-bottom: 80px;
+}
+
+.highlight {
+    color: #13FF00;
+    font-style: normal !important;
+}
+
+#abtcen {
+    margin: auto 15%;
+}
+
+/*------------------ About End------------------*/
+
+
+
+/*------------------ Services Start------------------*/
+
+#services {
+    background: #1D1D1D;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+#services>h1 {
+    color: #FFF;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 80px;
+    font-family: Poppins;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.grid-container-element {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.grid-child-element {
+    padding: 20px 20%;
+}
+
+.bufw {
+    display: inline-block !important;
+    padding: 0 !important;
+}
+
+.bufw>p {
+    color: #E2E2E2;
+    text-align: start;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    flex-shrink: 0;
+}
+
+.servicon {
+    color: #13FF00 !important;
+    width: 2.1875rem !important;
+    height: 2.1875rem !important;
+    flex-shrink: 0 !important;
+    margin: auto !important;
+
+}
+
+/*------------------ Services End------------------*/
+
+/*------------------ Exp & Edu Start------------------*/
+.grid-child-element>h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.grn {
+    color: #13FF00;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.clg {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.score {
+    color: #13FF00;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dt {
+    color: #C1C1C1;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+
+/*------------------ Exp & Edu End------------------*/
+
+/*------------------ Projects start------------------*/
+
+#projects>h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+#projects {
+    background: #1D1D1D;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn1 {
+    border-radius: 0.625rem;
+    background: #13FF00;
+    color: #202020;
+    font-family: Poppins;
+    text-decoration: none !important;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.a1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 20px;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.cont1 {
+    background-color: #161616 !important;
+    font-family: Poppins;
+}
+
+.card-title {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.servicon1 {
+    width: 1.5rem !important;
+    height: 1.80219rem !important;
+    flex-shrink: 0;
+    display: inline-block !important;
+    color: #13FF00 !important;
+    justify-content: center;
+    margin: auto !important;
+    align-self: center;
+}
+
+.bufw1 {
+    display: inline-block !important;
+    text-align: center !important;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto !important;
+    padding-right: 10px;
+    color: #E2E2E2;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.padd {
+    padding: 20px 0;
+}
+
+#prj {
+    background: transparent;
+    padding-bottom: 120px;
+    padding-top: 20px;
+}
+
+/*------------------ project End------------------*/
+
+
+/*------------------ Skills start------------------*/
+#skills {
+    background: #161616;
+    flex-shrink: 0;
+    margin: auto;
+    padding-bottom: 100px;
+    font-family: Poppins;
+}
+
+#skills>h1 {
+    color: #FFF;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 80px;
+    font-family: Poppins;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    flex: 1;
+    padding-top: 1rem;
+    text-align: center;
+    border: 2px solid #2ad408;
+    background: transparent !important;
+    margin: 0 10px;
+}
+
+.box>.sicon {
+    color: #13FF00 !important;
+    width: 2.1875rem !important;
+    height: 2.1875rem !important;
+    flex-shrink: 0 !important;
+    margin: auto !important;
+}
+
+.box>p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.fc1 {
+    padding: 1.5rem;
+}
+
+.box:hover {
+    background-color: black !important;
+    border: 2px solid #13FF00;
+}
+
+/*------------------Skills End------------------*/
+
+
+/*------------------Contact Start------------------*/
+
+
+#contact {
+    padding: 80px !important;
+
+}
+
+#contact>h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.inr {
+    display: inline-block;
+    width: 50%;
+
+}
+
+#otr {
+    border-radius: 2.0625rem;
+    background: #202020;
+    margin: 80px 15%;
+}
+
+.inr1 {
+    background: #272727;
+    border-radius: 2.0625rem;
+    flex-shrink: 0;
+
+}
+
+.inr>h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 3rem;
+    color: #13FF00;
+    font-family: Poppins;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ficon8 {
+    color: #FFF;
+    width: 1.4rem !important;
+    height: 1.4rem !important;
+    flex-shrink: 0;
+}
+
+.ficon8>a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.conoico {
+    text-align: start;
+
+}
+
+.conoico>p {
+    padding: 5px;
+    margin-left: 30%;
+}
+
+
+.inr2 {
+    border-radius: 2.0625rem;
+    background: #202020;
+}
+
+.ctcip {
+    padding-right: 2rem;
+    margin-right: 0 !important;
+}
+
+.ctcip>label {
+    color: #C1C1C1;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 5px 10px;
+
+
+}
+
+.ctcip>input {
+    border-radius: 0.5rem;
+    background: #343434;
+    float: right !important;
+}
+
+.ctcip>textarea {
+    border-radius: 0.5rem;
+    background: #343434;
+    float: right;
+}
+
+#sendbtn {
+    width: 5.1875rem;
+    height: 1.75rem;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #13FF00;
+    margin-left: 50%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#sendbtn:hover {
+    background: transparent;
+    color: #13FF00;
+}
+
+
+.nms {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    flex-shrink: 0;
+    color: #000000 !important;
+    margin-right: 5px !important;
+
+}
+
+
+/* Tablet (768px) */
+@media screen and (max-width: 768px) {
+    #otr {
+        margin: 40px 5%;
+    }
+
+    .inr {
+        width: 100%;
+    }
+
+    .conoico {
+        text-align: center;
+    }
+
+    .conoico>p {
+        margin-left: 0;
+    }
+
+    #sendbtn {
+        margin-left: 50%;
+
+    }
+
+    .ficon8 {
+        color: #FFF;
+        width: 1rem !important;
+        height: 1rem !important;
+        flex-shrink: 0;
+        margin: 5px;
+    }
+
+
+    .ficon8>a {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+}
+
+/* Desktop (1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #contact {
+        padding: 40px !important;
+    }
+
+    #otr {
+        margin: 60px 10%;
+    }
+
+    .ficon8 {
+        color: #FFF;
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+        flex-shrink: 0;
+    }
+
+    .ficon8>a {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+}
+
+/* Large Desktop (2560px) */
+@media screen and (min-width: 1025px) {
+    #contact {
+        padding: 100px !important;
+    }
+
+    #otr {
+        margin: 100px 20%;
+    }
+
+    .ficon8 {
+        color: #FFF;
+        width: 1.4rem !important;
+        height: 1.4rem !important;
+        flex-shrink: 0;
+    }
+
+    .ficon8>a {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+}
+
+/* Screens between 1400px and 1024px */
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+    #contact {
+        /* Adjust padding or other styles as needed */
+        padding: 60px !important;
+    }
+
+    #otr {
+        /* Adjust margin or other styles for the container as needed */
+        margin: 80px 15%;
+    }
+
+    /* Add any additional styles specific to this screen size */
+}
+
+
+
+
+/*------------------Contact End------------------*/
+
+/*------------------Certification Start------------------*/
+
+#certifications {
+    background: #1D1D1D;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+#certifications>h1 {
+    color: #FFF;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 80px;
+    font-family: Poppins;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.c--card {
+    display: block !important;
+    border: none !important;
+    padding: 0px !important;
+
+}
+
+.c--sisd {
+    display: inline-block !important;
+}
+
+.c--container .c--card .c--icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+}
+
+.c--container .c--card .c--icon .c--fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: #fff;
+}
+
+.c--container .c--card .c--slide {
+    width: 250px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.c--container .c--card .c--slide.c--slide1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: 0.7s;
+    transform: translateY(100px);
+}
+
+.c--container .c--card:hover .c--slide.c--slide1 {
+    transform: translateY(0px);
+}
+
+.c--container .c--card .c--slide.c--slide2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.8s;
+    transform: translateY(-100px);
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.c--container .c--card:hover .c--slide.c--slide2 {
+    transform: translateY(0);
+}
+
+.c--container .c--card .c--slide.c--slide2::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    bottom: 15px;
+    left: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #13FF00;
+}
+
+.c--container .c--card .c--slide.c--slide2 .c--content p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #414141;
+}
+
+.c--container .c--card .c--slide.c--slide2 .c--content h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #414141;
+}
+
+#certificate-container {
+    padding-bottom: 100px !important;
+    margin-left: 10% !important;
+    margin-right: 8% !important;
+}
+.c--sisd{
+    padding-right: 20px !important;
+}
+
+.aqa{
+    color: #13FF00 !important;
+    font-size: 1rem !important;
+
+}
+
+
+
+.cqa{
+ color: #FFF;
+ font-size: 0.8rem !important;
+margin: 20px 40%;
+}
+
+.c--slide2{
+    background: #161616;
+}
+
+
+/*------------------Certification End------------------*/
+
+@media only screen and (max-width: 600px) {
+    .parent {
+        flex-direction: column;
+    }
+
+    .child {
+        flex: 1;
+    }
+
+    #name {
+        font-size: 1.75rem;
+    }
+
+    #poff {
+        font-size: 1.5rem;
+    }
+
+    #intro {
+        font-size: 1rem;
+    }
+
+    .child1 {
+        flex: 0.75;
+        background-color: #000000;
+        clip-path: polygon(0 0, 57% 0, 100% 100%, 0% 100%);
+        justify-content: center;
+    }
+
+    .abtus {
+        font-size: 1rem;
+    }
+
+    .child2 {
+        flex: 0.25;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bufw>p {
+        font-size: 0.95rem;
+    }
+
+    .dt {
+        font-size: 0.75rem;
+    }
+
+    .score {
+        font-size: 0.75rem;
+    }
+
+    .clg {
+        font-size: 0.8;
+    }
+
+    .grn {
+        font-size: 0.9rem;
+    }
+
+    .grid-child-element>h1 {
+        font-size: 1.5rem;
+        text-align: left;
+        padding: auto 0;
+        margin: auto 0;
+    }
+
+    .box {
+        flex: 1;
+        padding-top: 1rem;
+        text-align: center;
+        border: 2px solid #2ad408;
+        background: transparent !important;
+        margin: 0 10px;
+    }
+
+    .box>.sicon {
+        color: #13FF00 !important;
+        width: 1.5875rem !important;
+        height: 1.5875rem !important;
+        flex-shrink: 0 !important;
+        margin: auto !important;
+    }
+
+    .box>p {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .inr {
+        display: block;
+        width: 100%;
+    }
+
+    #contact {
+        padding: 2px !important;
+    }
+
+    .ficon8 {
+        color: #FFF;
+        width: 1rem !important;
+        height: 1rem !important;
+        flex-shrink: 0;
+        margin: 5px;
+    }
+
+    .ficon8>a {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .conoico>p {
+        margin-left: auto;
+        padding-bottom: 5px;
+    }
+
+    #otr {
+        margin: 50px 1% !important;
+        margin-bottom: 100px !important;
+    }
+
+    .c--card{
+        margin: 10% !important;
+    }
+}
