@@ -14,46 +14,46 @@ const Skill = () => {
     <>
       <div id="skills">
         <h1>Skills</h1>
-        <div class="flex-container fc1">
-          <div class="box box1">
+        <div className="flex-container fc1">
+          <div className="box box1">
             <FaReact className='sicon' />
             <p>React Js</p>
           </div>
-          <div class="box box2">
+          <div className="box box2">
             <RiJavascriptFill className='sicon' />
             <p>JavaScript</p>
           </div>
-          <div class="box box3">
+          <div className="box box3">
             <BiLogoPostgresql className='sicon' />
             <p>MySQL</p>
           </div>
         </div>
 
 
-        <div class="flex-container fc1">
-          <div class="box box1">
+        <div className="flex-container fc1">
+          <div className="box box1">
             <FaWordpress className='sicon' />
             <p>WordPress</p>
           </div>
-          <div class="box box2">
+          <div className="box box2">
             <FaHtml5 className='sicon' />
             <p>HTML</p>
           </div>
-          <div class="box box3">
+          <div className="box box3">
             <FaCss3Alt className='sicon' />
             <p>CSS</p>
           </div>
         </div>
-        <div class="flex-container fc1">
-          <div class="box box1">
+        <div className="flex-container fc1">
+          <div className="box box1">
             <FaBootstrap className='sicon' />
             <p>BootStrap</p>
           </div>
-          <div class="box box2">
+          <div className="box box2">
             <FaGitlab className='sicon' />
             <p>Git & GitHub</p>
           </div>
-          <div class="box box3">
+          <div className="box box3">
             <RiCameraLensFill className='sicon' />
             <p>Responsive Design</p>
           </div>

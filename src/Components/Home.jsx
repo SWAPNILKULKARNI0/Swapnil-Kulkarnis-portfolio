@@ -23,8 +23,8 @@ const Home = () => {
 
     return (
         <>
-            <div id="HOme" class="parent">
-                <div class="child child1">
+            <div id="HOme" className="parent">
+                <div className="child child1">
                     <div className='cont'>
                         <p id='name'>SWAPNIL KULKARNI</p>
                         <div id='line'></div>
@@ -81,8 +81,8 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div class="child child2">
-                    <div class="circular-border">
+                <div className="child child2">
+                    <div className="circular-border">
                         <img src={profilepic} alt="profile" />
                     </div>
                 </div>
