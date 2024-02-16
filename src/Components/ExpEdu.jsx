@@ -28,16 +28,16 @@ const ExpEdu = () => {
               <p className='dt'>Dec 2020 - Present</p>
             </div>
             <div>
-              <h3 className='grn'>Pre-University Course(PUC/12th)</h3>
+              <h3 className='grn'>12<sup>th</sup> (Pre-University Course/PUC)</h3>
               <h4 className='clg'>Sri Chaitanya PU College, Ballari.</h4>
               <h5 className='score'>Score: 88%</h5>
               <p className='dt'>Jun 2018 - Mar 2020</p>
             </div>
             <div >
-              <h3 className='grn'>SSLC (10th)</h3>
+              <h3 className='grn'>10<sup>th</sup> (SSLC)</h3>
               <h4 className='clg'>Vijaya Mary School, Siruguppa, Ballari.</h4>
               <h5 className='score'>Score: 82% </h5>
-              <p className='dt'>Apr 2018</p>
+              <p className='dt'>Jun 2018 - Apr 2018</p>
             </div>
           </div>
         </div>

@@ -151,12 +151,9 @@ svg {
 }
 
 .circular-border {
-    border: 4px solid #13FF00;
-    border-radius: 50%;
     overflow: hidden;
     background-color: transparent;
-
-
+    
 }
 
 .circular-border img {
@@ -1131,4 +1128,39 @@ margin: 20px 40%;
     .c--card{
         margin: 10% !important;
     }
+
+    .navbar-nav .nav-link {
+        color: #fff; /* Set your desired text color */
+      }
+    
+      .navbar-nav{
+        background-color: #161616 !important; /* Set your desired background color */
+      
+      }
 }
+
+/* -------- ScrollBar ------------*/
+/* ScrollBarStyles.css */
+
+/* Track */
+::-webkit-scrollbar {
+    width: 8px;
+    background:transparent;
+ }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #11ff0077;
+    border-radius: 6px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+  }
+  
+  /* Change the color of the toggle button */
+.navbar-toggler {
+    background-color: #13FF00;
+  }
+  

@@ -25,8 +25,8 @@ const Projects = () => {
                       <div className="bufw1"><FaLaptopCode className='servicon1' /></div>
                       <div className="bufw1"><p>Web Development</p></div>
                     </div>
-                    <a className='a1' href={weatherapp_project_sourcecode_link}>View Code</a>
-                    <a href={weatherapp_project_live_link } className="btn btn1 btn-primary">Live Preview</a>
+                    <a className='a1' target="_blank" rel="noreferrer" href={weatherapp_project_sourcecode_link}>View Code</a>
+                    <a  target="_blank" rel="noreferrer"href={weatherapp_project_live_link } className="btn btn1 btn-primary">Live Preview</a>
                   </div>
                 </div>
               </div>
@@ -40,8 +40,8 @@ const Projects = () => {
                       <div className="bufw1"><FaLaptopCode className='servicon1' /></div>
                       <div className="bufw1"><p>Web Development</p></div>
                     </div>
-                    <a className='a1' href={portfolio_project_sourcecode_link}>View Code</a>
-                    <a href="#!" className="btn btn1 btn-primary">Live Preview</a>
+                    <a target="_blank" rel="noreferrer" className='a1' href={portfolio_project_sourcecode_link}>View Code</a>
+                    <a target="_blank" rel="noreferrer" href="#!" className="btn btn1 btn-primary">Live Preview</a>
                   </div>
                 </div>
               </div>
@@ -55,8 +55,8 @@ const Projects = () => {
                       <div className="bufw1"><FaLaptopCode className='servicon1' /></div>
                       <div className="bufw1"><p>Web Development</p></div>
                     </div>
-                    <a className='a1' href="#!">View Code</a>
-                    <a href="#!" className="btn btn1  btn-primary">Live Preview</a>
+                    <a target="_blank" rel="noreferrer" className='a1' href="#!">View Code</a>
+                    <a target="_blank" rel="noreferrer" href="#!" className="btn btn1  btn-primary">Live Preview</a>
 
                   </div>
                 </div>

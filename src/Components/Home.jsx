@@ -7,10 +7,9 @@ import { GrInstagram } from "react-icons/gr";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
-import profilepic from '../assets/images/profile.png'
 import { Cursor } from 'react-simple-typewriter';
 import { Typewriter } from 'react-simple-typewriter';
-
+import homepic from '../assets/images/Online world.gif'
 
 const Home = () => {
     const cv = "https://drive.google.com/file/d/1WrB_2uJBZzfd9zb3fS16KqeET_6h8MWc/view?usp=drive_link"
@@ -19,6 +18,7 @@ const Home = () => {
     const linkedin = "https://www.linkedin.com/in/swapnil-kulkarni-a01b68243/"
     const instagram = "https://www.instagram.com/swapnil_kulkarni0/?hl=en"
     const facebook = "https://www.facebook.com/swapnil.kulkarni.52493?mibextid=JRoKGi"
+    const portfolio_project_sourcecode_link = "https://github.com/SWAPNILKULKARNI0/Swapnil-Kulkarnis-portfolio.git";
 
 
     return (
@@ -50,7 +50,7 @@ const Home = () => {
                             <a href={cv} target="_blank" rel="noreferrer">
                                 <MdOutlineCloudDownload /><p>Download CV</p>
                             </a>
-                            <a href="#!" target="_blank" rel="noreferrer">
+                            <a href={portfolio_project_sourcecode_link} target="_blank" rel="noreferrer">
                                 <div id='dowl'>
                                     <MdOutlineDownloading /><p>Portfolio</p>
                                 </div>
@@ -83,7 +83,7 @@ const Home = () => {
                 </div>
                 <div className="child child2">
                     <div className="circular-border">
-                        <img src={profilepic} alt="profile" />
+                        <img src={homepic} alt="profile" />
                     </div>
                 </div>
             </div>
