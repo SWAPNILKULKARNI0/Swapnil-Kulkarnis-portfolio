@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Swapnil-Kulkarnis-portfolio/static/css/main.f1bd8fde.css",
+    "main.js": "/Swapnil-Kulkarnis-portfolio/static/js/main.de4eba02.js",
+    "static/js/787.83d93905.chunk.js": "/Swapnil-Kulkarnis-portfolio/static/js/787.83d93905.chunk.js",
+    "static/media/Online world.gif": "/Swapnil-Kulkarnis-portfolio/static/media/Online world.28544f1c3df644c2fc5d.gif",
+    "static/media/E-com.png": "/Swapnil-Kulkarnis-portfolio/static/media/E-com.c168d314c5e0eaa7d7a2.png",
+    "static/media/Capture.png": "/Swapnil-Kulkarnis-portfolio/static/media/Capture.344893f83c4efc515dfd.png",
+    "static/media/portfolio.png": "/Swapnil-Kulkarnis-portfolio/static/media/portfolio.ccc5a24dcb1f2aa962de.png",
+    "static/media/ng.jpg": "/Swapnil-Kulkarnis-portfolio/static/media/ng.3e02d4bee844b04bace8.jpg",
+    "static/media/c++.jpg": "/Swapnil-Kulkarnis-portfolio/static/media/c++.6d9704a2ad4796d339ef.jpg",
+    "static/media/cp.jpg": "/Swapnil-Kulkarnis-portfolio/static/media/cp.7292d61c9cf4d61f4a90.jpg",
+    "index.html": "/Swapnil-Kulkarnis-portfolio/index.html",
+    "main.f1bd8fde.css.map": "/Swapnil-Kulkarnis-portfolio/static/css/main.f1bd8fde.css.map",
+    "main.de4eba02.js.map": "/Swapnil-Kulkarnis-portfolio/static/js/main.de4eba02.js.map",
+    "787.83d93905.chunk.js.map": "/Swapnil-Kulkarnis-portfolio/static/js/787.83d93905.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1bd8fde.css",
+    "static/js/main.de4eba02.js"
+  ]
+}
